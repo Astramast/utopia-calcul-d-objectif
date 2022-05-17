@@ -7,9 +7,9 @@ def f(string):
     return s
 
 k = ["Rang de l'attaqué : ", "Rang de l'attaquant : ", "Bonus/Malus : "]
-l=[]
 u = 1
 while u == 1:
+    l=[]
     print("Calcul de l'objectif : ")
     print("50 + (? - ?) * 5 + ?")
     for i in k:
