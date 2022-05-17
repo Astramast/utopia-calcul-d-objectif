@@ -14,7 +14,7 @@ while u == 1:
     print("50 + (? - ?) * 5 + ?")
     for i in k:
         l.append(f(i))
-    print(f"50 + ({l[0]} - {l[1]}) * 5 + l[2]")
+    print(f"50 + ({l[0]} - {l[1]}) * 5 + {l[2]}")
     print("Objectif =", 50+(l[0] - l[1]) *5 + l[2])
     u = f("Continuer ? (Écrire 1 si oui 0 si non) : ")
 
