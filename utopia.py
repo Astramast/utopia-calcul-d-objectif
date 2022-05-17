@@ -3,7 +3,7 @@ def f(string):
         s = int(input(string))
     except:
         print("Mauvais input, veuillez réessayer")
-        f(string)
+        s = f(string)
     return s
 
 k = ["Rang de l'attaqué : ", "Rang de l'attaquant : ", "Bonus/Malus : "]
